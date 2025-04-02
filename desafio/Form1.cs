@@ -22,6 +22,7 @@ namespace desafio
             controller = new TarefaController();
             ConfigurarInterface(); 
             AtualizarListaTarefas();
+
         }
 
         private void ConfigurarInterface()
@@ -91,6 +92,7 @@ namespace desafio
 
                 int id = Convert.ToInt32(dgvTarefas.SelectedRows[0].Cells["Id"].Value);
                 controller.MarcarComoConcluida(id);
+
                 AtualizarListaTarefas();
 
                 MessageBox.Show("Tarefa marcada como concluída!", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);

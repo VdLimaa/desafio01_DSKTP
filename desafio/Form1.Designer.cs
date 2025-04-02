@@ -52,7 +52,7 @@
             this.dgvTarefas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvTarefas.Location = new System.Drawing.Point(395, 30);
             this.dgvTarefas.Name = "dgvTarefas";
-            this.dgvTarefas.Size = new System.Drawing.Size(383, 211);
+            this.dgvTarefas.Size = new System.Drawing.Size(771, 241);
             this.dgvTarefas.TabIndex = 0;
             // 
             // btnAdicionar
@@ -113,7 +113,7 @@
             this.chartPrioridades.ChartAreas.Add(chartArea1);
             legend1.Name = "Legend1";
             this.chartPrioridades.Legends.Add(legend1);
-            this.chartPrioridades.Location = new System.Drawing.Point(395, 279);
+            this.chartPrioridades.Location = new System.Drawing.Point(15, 292);
             this.chartPrioridades.Name = "chartPrioridades";
             series1.ChartArea = "ChartArea1";
             series1.Legend = "Legend1";
@@ -170,7 +170,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(800, 522);
+            this.ClientSize = new System.Drawing.Size(1196, 522);
             this.Controls.Add(this.lbVencimento);
             this.Controls.Add(this.lbPrioridade);
             this.Controls.Add(this.btnGerarGrafico);

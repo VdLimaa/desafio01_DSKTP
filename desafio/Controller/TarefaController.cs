@@ -35,6 +35,7 @@ namespace desafio.Controller
             if (tarefa == null)
                 throw new Exception("Tarefa não encontrada.");
             tarefa.MarcarComoConcluida();
+            modelo.AtualizarTarefa(tarefa);
         }
 
         public List<Tarefa> ListarTarefas()

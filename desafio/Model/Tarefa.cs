@@ -6,13 +6,16 @@ using System.Threading.Tasks;
 
 namespace desafio.Model
 {
+    [Serializable]
     public class Tarefa
     {
         public int Id { get; set; }
         public string Nome { get; set; }
         public string Prioridade { get; set; } 
         public DateTime DataVencimento { get; set; }
-        public string Status { get; set; } 
+        public string Status { get; set; }
+
+        public Tarefa() { }
 
         public Tarefa(int id, string nome, string prioridade, DateTime dataVencimento)
         {
